@@ -1,0 +1,68 @@
+<?php
+header('content-type:text/css');
+echo <<<FINCSS;
+*{
+margin:0px;
+padding: 0px;
+}
+article{
+	background: #C0C0C0;
+}
+input{
+	background: #C0C0C0;
+	-web-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+
+	-moz-box-shadow: 0 -1px 0 0px #000;
+	-webkit-box-shadow 0 -1px 0 0px #000;
+	box-shadow: 0 -1px 0 0px #000;
+
+	border: none;
+	width: 316px;
+	height: 27px;
+	margin: 15px 0;
+	color: #fff;
+	padding: 0 0 0 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1 2em;
+	letter-spacing: 2px;
+}
+label, button{
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 1 4em;
+	color: #fff;
+}
+button{
+	width: 79px;
+	height: 24px;
+	text-align: center;
+	border: none;
+	float: right;
+
+	background: #363535;
+	
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+
+	-webkit-box-shadow: 0 0px 1px rgba(255,255,255);
+	-moz-box-shadow: 0 0px 1px rgba(255,255,255);
+	box-shadow: 0 0px 1px rgba(255,255,255,0.1);
+	color: #fff;
+	text-align: right;
+}
+button:hover{
+	background: #363535;
+
+}
+button:active{
+	border: none;
+	-webkit-box-shadow:0 0px 2px rgba(255,255,255);
+	-moz-box-shadow: 0 0px 2px rgba(255,255,255);
+	box-shadow: 0 0px 2px rgba(255,255,255);
+}
+FINCSS;
+?>
